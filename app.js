@@ -1,6 +1,7 @@
-const ekspress = require('express');
+const express = require('express');
 const app = express();
-const port = process.env.PORT
+//const config = require('/config.js')
+const port = 9000;
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
